@@ -152,8 +152,8 @@ while True:
             print("face succesfully")
             conn = smtplib.SMTP('smtp.gmail.com',587)
             conn.starttls()
-            conn.login('jkishan915@gmail.com','17061997')
-            conn.sendmail('jkishan915@gmail.com','js078152@gmail.com','Subject: face detect sucessfully\n\n THIS IS FACE OF YOUR JAI KISHAN')
+            conn.login('xxxxxxx','999999')
+            conn.sendmail('xxxxxxx','abc@gmail.com','Subject: face detect sucessfully\n\n THIS IS FACE OF YOUR JAI KISHAN')
             conn.quit()
             detect=True
            
@@ -184,7 +184,7 @@ while True:
 cap.release()
 cv2.destroyAllWindows() 
 if detect==True:
-    number = "+918824604864"
+    number = "+919999999999"
     message = "hii it's me jai "
     pwt.sendwhatmsg_instantly(number,message)
     
